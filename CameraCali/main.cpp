@@ -11,7 +11,7 @@ int main(int argc, char* argv) {
 	cap.set(CV_CAP_PROP_FRAME_WIDTH, 640);
 	cap.set(CV_CAP_PROP_FRAME_HEIGHT, 480);
 	if (!cap.isOpened()) {
-		cout << "打开摄像头失败，退出";
+		cout << "Error Opening camera, exit!";
 		exit(-1);
 
 	}
